@@ -1,0 +1,18 @@
+PROJ,IMPACT_NUM,TSPARMCD,TSPARAM,TSVAL,TSVALCD
+CDISC DEV,0,INTMODEL,Intervention Model,PARALLEL,C82639
+CDISC DEV,0,RANDOM,Trial is Randomized,Y,C49488
+CDISC DEV,0,TBLIND,Trial Blinding Schema,SINGLE BLIND,C28233
+CDISC DEV,0,TCNTRL,Control Type Response,ACTIVE,C49649
+CDISC DEV,0,TITLE,Trial Title,A trial comparing cardiovascular safety of human insulin versus metformin in subjects with type 2 diabetes at high risk of cardiovascular events,
+CDISC DEV,0,TPHASE,Trial Phase Classification,PHASE III TRIAL,C15602
+CDISC DEV,0,TTYPE,Trial Type Response,EFFICACY,C49666
+CDISC DEV,0,TTYPE,Trial Type Response,SAFETY,C49667
+ExampleClin,1006,INTMODEL,Intervention Model,PARALLEL,C82639
+ExampleClin,1006,RANDOM,Trial is Randomized,Y,
+ExampleClin,1006,TBLIND,Trial Blinding Schema,DOUBLE BLIND,
+ExampleClin,1006,TCNTRL,Control Type Response,PLACEBO,C49648
+ExampleClin,1006,TITLE,Trial Title,Safety and Efficacy of the Xanomeline Transdermal Therapeutic System (TTS) in Patients with Mild to Moderate Alzheimer?s Disease.,
+ExampleClin,1006,TPHASE,Trial Phase Classification,PHASE II TRIAL,
+ExampleClin,1006,TTYPE,Trial Type Response,SAFETY,
+ExampleClin,1006,TTYPE,Trial Type Response,EFFICACY,
+ExampleClin,1006,TTYPE,Trial Type Response,PHARMACOKINETIC,

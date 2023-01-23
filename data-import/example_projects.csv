@@ -1,0 +1,4 @@
+clinical_programme_code,clinical_programme_name,project_code,project_code2,project_name,brand_name,VIRTUAL,status,description
+CDISC,CDISC Development programme,CDISC DEV,CDISC DEV,CDISC Dev,,N,A,"Project to be used for test of CDISC implementation, e.g. SDTM, ADAM"
+Example,Example Programme,ExampleClin,ExampleClin,Example Clinical,,N,A,Project to be used for examples of the clinical area
+Example,Example Programme,ExamplePreClin,ExamplePreClin,Example Pre-Clinical,,N,A,Project to be used for examples of the pre-clinical area
