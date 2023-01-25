@@ -23,6 +23,9 @@ File | Description
 -- | --
 \doc\Steps.pptx | Work in progress - what has been tried out (data import via .csv - that's not recommended)
 \scripts\test_api_connection.py | Test setup API connection, executable from data-import location (see Steps.pptx)
+\scripts\api_example_call.sas | Example to call API from SAS
+\scripts\api_example_calls.R | Example to call API from R
+
 
 
 ## Contribution
