@@ -21,6 +21,8 @@ data/send_vacc4/TrialDomains.xlsx | XPT files of TA, TE, TS, TX (1)
 
 File | Description 
 -- | --
+\doc\InstallactionExperiences.md | Installation commands and experiences (Windows 10)
+\doc\LocalApplicationUpdated.md | Run and change application locally
 \doc\Steps.pptx | Work in progress - what has been tried out (data import via .csv - that's not recommended)
 \scripts\test_api_connection.py | Test setup API connection, executable from data-import location (see Steps.pptx)
 \scripts\api_example_call.sas | Example to call API from SAS

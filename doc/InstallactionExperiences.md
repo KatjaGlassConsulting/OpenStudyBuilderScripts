@@ -72,3 +72,73 @@ When checking the import order on the readme, you could see that the `mockdatajs
 In windows I do not have the docker deamon up and running immediately. To start the docker environment, I use "Docker Desktop". As the containers have to start in a specific order, the automatic start does not work. You have to manually click "play" for all components:
 
 ![Start docker container](./img/install_docker_start.png)
+
+## Install CDISC Controlled Terminology
+
+The initial data does contain a few CDISC CTs, but not all. To load also other CTs, there scripts are available in the "mdr-standards-import" part of the repository (see [here](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/mdr-standards-import)).
+
+To be able to use the CDISC Library API, you need to create an account and get an authentication token for this. You can register or log into the library here: https://library.cdisc.org/browser. In the CDISC Library browser, go to settings (top-right), then "API Portal". Under "API Key", the primary key is shown and can be copied.
+
+
+
+Additionally create the folder "cdisc_data/packages" to store the CDISC library download intermediately. Please note the port numbers - when docker is used these are 5001 (HTTP) and 5002 (BOLT) and the default password is "changeme1234". Please note as well that you have to provide the full absolute path as parameter in the download call.
+
+
+As in the explanation, we need to run `pipenv install` to setup the environment and install all required packages. We also need to create the folder. "cdisc_data/packages" to store the CDISC library download intermediately.
+
+```
+cd <path>/mdr-standards-import
+pipenv install
+mkdir cdisc_data\packages
+```
+
+Finally we also need to create the .env file - by using the docker environment, we have to use 5002 (BOLT) as port numbers and the default password of "changeme1234". Also include your personal library token (`<<Insert secret here>>`) and the concrete path (`<path>`). Please note that you have to provide the full absolute path as parameter in the download call.
+
+.env file:
+
+```
+#
+# Neo4j Database
+#
+NEO4J_MDR_BOLT_PORT=5002
+NEO4J_MDR_HOST=localhost
+NEO4J_MDR_AUTH_USER=neo4j
+NEO4J_MDR_AUTH_PASSWORD=changeme1234
+NEO4J_MDR_DATABASE=neo4j
+
+NEO4J_CDISC_IMPORT_BOLT_PORT=5002
+NEO4J_CDISC_IMPORT_HOST=localhost
+NEO4J_CDISC_IMPORT_AUTH_USER=neo4j
+NEO4J_CDISC_IMPORT_AUTH_PASSWORD=changeme1234
+NEO4J_CDISC_IMPORT_DATABASE=cdisc-ct
+
+#
+# CDISC API
+# API token is not mandatory as the package
+# folder is now placed in the repository
+#
+CDISC_BASE_URL="https://library.cdisc.org/api"
+CDISC_AUTH_TOKEN="<<Insert secret here>>"
+
+#
+# Download folder for the CDISC JSON package files
+#
+CDISC_DATA_DIR=
+
+```
+
+Now we can download the CTs from the library using the following command in our console:
+
+```
+pipenv run python -m mdr_standards_import.cdisc_ct.dev_scripts.download_json_data_from_cdisc_api cdisc_data\packages
+```
+
+We can see all related JSON files in our subfolder cdisc_data/packages. To omit version you do not need at all, you might want to move unneeded files into a subfolder. The next step is do import the CTs into a CT database and then into the MDR database (this one holds all OpenStudyBuilder data). That might take a while.
+
+```
+pipenv run python -m mdr_standards_import.cdisc_ct.dev_scripts.bulk_import 'TEST' cdisc_data\packages true
+```
+
+**hint** When loading too many standards, I got an out of memory issue. I recommend to load only very few files.
+
+... to continue
