@@ -16,7 +16,7 @@ pipenv install
 mkdir cdisc_data\packages
 ```
 
-Finally we also need to create the .env file - by using the docker environment, we have to use 5002 (BOLT) as port numbers and the default password of "changeme1234". Also include your personal library token (`<<Insert secret here>>`) and the concrete path (`<path>`). Please note that you have to provide the full absolute path as parameter in the download call.
+Finally we also need to create the .env file - by using the docker environment, we have to use 5002 (BOLT) as port numbers and the default password of "changeme1234". Also include your personal library token (`<<Insert secret here>>`) and the concrete path (`<path>`). Please note that you have to provide the full absolute path as parameter in the download call. You also need to use the correct library name where the OpenStudyBuilder data is stored in. The database for version 0.3 is named "mdrdb-2023.02.20-09.22". To test the import, you might want to load it to "NEO4J_MDR_DATABASE=neo4j" first.
 
 .env file:
 
@@ -28,7 +28,7 @@ NEO4J_MDR_BOLT_PORT=5002
 NEO4J_MDR_HOST=localhost
 NEO4J_MDR_AUTH_USER=neo4j
 NEO4J_MDR_AUTH_PASSWORD=changeme1234
-NEO4J_MDR_DATABASE=neo4j
+NEO4J_MDR_DATABASE=mdrdb-2023.02.20-09.22
 
 NEO4J_CDISC_IMPORT_BOLT_PORT=5002
 NEO4J_CDISC_IMPORT_HOST=localhost
@@ -60,6 +60,8 @@ pipenv run python -m mdr_standards_import.cdisc_ct.dev_scripts.download_json_dat
 ```
 
 ## Load CTs in to database
+
+I recommend a backup before performing any steps, see [here](./Backups.md) my experiences.
 
 We can see all related JSON files in our subfolder cdisc_data/packages. To omit version you do not need at all, you might want to move unneeded files into a subfolder. The next step is do import the CTs into a CT database and then into the MDR database (this one holds all OpenStudyBuilder data). That might take a while.
 
