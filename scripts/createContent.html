@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Uploading data</title>
+  <script src="./scripts.js"></script>
+  <body>
+    <div>
+      <h1>Example Scripts</h1>
+      <p>Please open developer tools (in most browsers F12) to better browse the responses in the console window.</p>
+      <br/>
+      <button onclick="getClinicalProgram()">Get Programs</button>
+      <button onclick="getProjects()">Get Projects</button>
+      <button onclick="getStudies()">Get Studies</button>
+      <br/><br/>
+      <div id="resultContainer">
+      </div>
+      <hr/><br/>
+      <div id="areaCreateClinicalProgram_01">
+        <input type="text" id="01_clinicalProgramInput" placeholder="Clinical Program Name" value="">
+        <button onclick="createClinicalProgram()">Create Clinical Program</button>
+        <br/>
+      </div>
+      <div id="areaCreateProject_02">
+        <input type="text" id="02_clinical_programme_uid" placeholder="Clinical Program ID" value="">
+        <input type="text" id="02_project_number" placeholder="Project Number" value="">
+        <input type="text" id="02_name" placeholder="Project Name" value="">
+        <input type="text" id="02_description" placeholder="Project Description" value="">
+        <button onclick="createProject()">Create Project</button>
+        <br/>
+      </div>
+    </div>
+  </body>
+</html>
