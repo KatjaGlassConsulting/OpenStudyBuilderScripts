@@ -24,7 +24,8 @@ File | Description
 [\doc\InstallationExperiences.md](./doc/InstallationExperiences.md) | Installation commands and experiences (Windows 10)
 [\doc\InstallationExpStandards.md](./doc/InstallationExpStandards.md) | Installation commands and experiences for Standard Imports(Windows 10)
 [\doc\Backups.md](./doc/Backups.md) | Backups comments (Windows 10)
-[\]doc\LocalApplicationUpdated.md](./doc/LocalApplicationUpdated.md) | Run and change application locally
+[\doc\LocalApplicationUpdated.md](./doc/LocalApplicationUpdated.md) | Run and change application locally
+[\doc\ProtocolAutomation.md](./doc/ProtocolAutomation.md) | Options for implementing Protocol Automations
 \doc\Steps.pptx | Work in progress - what has been tried out (data import via .csv - that's not recommended)
 \scripts\test_api_connection.py | Test setup API connection, executable from data-import location (see Steps.pptx)
 \scripts\api_example_call.sas | Example to call API from SAS

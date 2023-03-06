@@ -37,3 +37,12 @@ We can browse this codelist in our library. So within the app we can go to "Libr
 ### Codelist "SEND Study Type"
 
 Finally, we might want to use a different study type. For our case we wanted to edit the "Study Type" as we want to showcase the OpenStudyBuilder for pre-clinical studies. Here we do not use the "Protocol CT" from CDISC, but the "SEND CT". There is a codelist calles "SEND Study Type" which we want to utilize. This is also extensible, meaning we could add additional terms if the SEND ones are not sufficient.
+
+When we browse the library for "SEND Study Type" we can see the "Concept ID" value of "C90003". Now we change the studyType definition to use this codelist instead.
+
+In "studybuilder/src/api/controlledTerminology/terms.js" we exchange `studyType: { attribute: 'codelist_uid', value: 'C99077' }` with `studyType: { attribute: 'codelist_uid', value: 'C90003' }`.
+
+Now within the application, the SEND codelist is used. So when we select a study, go to "Project Properties" and click the "edit" button, you can see the following list:
+
+![Screenshot - Study Type selection based on SEND](./img/localApp_studyTypeExchanged.png)
+
