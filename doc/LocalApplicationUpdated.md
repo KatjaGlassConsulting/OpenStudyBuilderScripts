@@ -46,3 +46,12 @@ Now within the application, the SEND codelist is used. So when we select a study
 
 ![Screenshot - Study Type selection based on SEND](./img/localApp_studyTypeExchanged.png)
 
+## Update the Docker Container
+
+When changes are made to the application, these are currently only available locally. When you start the docker container, there will still be the original version, as the application is just started and not rebuild. To rebuild the application, you can use docker compose:
+
+```
+docker compose build --no-cache api				
+docker-compose up --force-recreate api			
+docker-compose up --force-recreate frontend
+```

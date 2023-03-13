@@ -17,7 +17,7 @@ data/cdisc_pilot/TrialDomains.xlsx | XPT files of TA, TI, TS, TV (1)
 data/cdisc_pilot/cdiscpilot01_study_report.pdf | Study Report (2)
 data/send_vacc4/TrialDomains.xlsx | XPT files of TA, TE, TS, TX (1)
 
-## Programs and Documentation
+## Documentation
 
 File | Description 
 -- | --
@@ -26,10 +26,26 @@ File | Description
 [\doc\Backups.md](./doc/Backups.md) | Backups comments (Windows 10)
 [\doc\LocalApplicationUpdated.md](./doc/LocalApplicationUpdated.md) | Run and change application locally
 [\doc\ProtocolAutomation.md](./doc/ProtocolAutomation.md) | Options for implementing Protocol Automations
-\doc\Steps.pptx | Work in progress - what has been tried out (data import via .csv - that's not recommended)
-\scripts\test_api_connection.py | Test setup API connection, executable from data-import location (see Steps.pptx)
-\scripts\api_example_call.sas | Example to call API from SAS
-\scripts\api_example_calls.R | Example to call API from R
+[\doc\CreateContentComments.md](./doc/CreateContentComments.md) | Explanation for **Webpage**: Utilizing API to have a webpage to create Clinical Programs, Projects and Studies from Trial Domains
+\doc\Steps.pptx | To **ignore** - Work in progress - what has been tried out (data import via .csv - that's not recommended)
+
+## Programs
+
+File | Description 
+-- | --
+[\scripts\test_api_connection.py](./scripts/test_api_connection.py) | Test setup API connection, executable from data-import location (see Steps.pptx)
+[\scripts\api_example_call.sas](./scripts/api_example_call.sas) | Example to call API from SAS
+[\scripts\api_example_calls.R](./scripts/api_example_calls.R) | Example to call API from R
+[\scripts\protocol_automation_example.R](./scripts/protocol_automation_example.R) | Example for protocol automation in R
+
+**Webpage**: Utilizing API to have a webpage to create Clinical Programs, Projects and Studies from Trial Domains
+
+File | Description 
+-- | --
+[\scripts\createContent.html](./scripts/createContent.html) | Webpage to perform tasks (needs connectes js file)
+[\scripts\createContentScripts.js](./scripts/createContentScripts.js) | Functions to perform tasks (needed by webpage)
+[\scripts\protocol_automation_example.R](./scripts/read_trial_domains_to_json.sas) | SAS program & macros to create trial domain JSONs 
+
 
 ## Contribution
 

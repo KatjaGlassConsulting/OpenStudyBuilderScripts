@@ -1,0 +1,1210 @@
+﻿{
+  "ta": [
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Pbo",
+      "ARM": "Placebo",
+      "TAETORD": 1,
+      "ETCD": "SCRN",
+      "ELEMENT": "Screen",
+      "TABRANCH": "Randomized to Placebo",
+      "TATRANS": "",
+      "EPOCH": "SCREENING"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Pbo",
+      "ARM": "Placebo",
+      "TAETORD": 2,
+      "ETCD": "PBO",
+      "ELEMENT": "Placebo",
+      "TABRANCH": "",
+      "TATRANS": "",
+      "EPOCH": "TREATMENT"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Pbo",
+      "ARM": "Placebo",
+      "TAETORD": 3,
+      "ETCD": "FOLO",
+      "ELEMENT": "Follow_up",
+      "TABRANCH": "",
+      "TATRANS": "",
+      "EPOCH": "FOLLOW-UP"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Xan_Hi",
+      "ARM": "Xanomeline High Dose",
+      "TAETORD": 1,
+      "ETCD": "SCRN",
+      "ELEMENT": "Screen",
+      "TABRANCH": "Randomized to High Dose",
+      "TATRANS": "",
+      "EPOCH": "SCREENING"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Xan_Hi",
+      "ARM": "Xanomeline High Dose",
+      "TAETORD": 2,
+      "ETCD": "HIS",
+      "ELEMENT": "High_Start",
+      "TABRANCH": "",
+      "TATRANS": "",
+      "EPOCH": "TREATMENT"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Xan_Hi",
+      "ARM": "Xanomeline High Dose",
+      "TAETORD": 3,
+      "ETCD": "HIM",
+      "ELEMENT": "High_Middle",
+      "TABRANCH": "",
+      "TATRANS": "",
+      "EPOCH": "TREATMENT"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Xan_Hi",
+      "ARM": "Xanomeline High Dose",
+      "TAETORD": 4,
+      "ETCD": "HIE",
+      "ELEMENT": "High_End",
+      "TABRANCH": "",
+      "TATRANS": "",
+      "EPOCH": "TREATMENT"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Xan_Hi",
+      "ARM": "Xanomeline High Dose",
+      "TAETORD": 5,
+      "ETCD": "FOLO",
+      "ELEMENT": "Follow_up",
+      "TABRANCH": "",
+      "TATRANS": "",
+      "EPOCH": "FOLLOW-UP"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Xan_Lo",
+      "ARM": "Xanomeline Low Dose",
+      "TAETORD": 1,
+      "ETCD": "SCRN",
+      "ELEMENT": "Screen",
+      "TABRANCH": "Randomized to Low Dose",
+      "TATRANS": "",
+      "EPOCH": "SCREENING"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Xan_Lo",
+      "ARM": "Xanomeline Low Dose",
+      "TAETORD": 2,
+      "ETCD": "LO",
+      "ELEMENT": "Low",
+      "TABRANCH": "",
+      "TATRANS": "",
+      "EPOCH": "TREATMENT"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TA",
+      "ARMCD": "Xan_Lo",
+      "ARM": "Xanomeline Low Dose",
+      "TAETORD": 3,
+      "ETCD": "FOLO",
+      "ELEMENT": "Follow_up",
+      "TABRANCH": "",
+      "TATRANS": "",
+      "EPOCH": "FOLLOW-UP"
+    }
+  ],
+  "te": [
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TE",
+      "ETCD": "FOLO",
+      "ELEMENT": "Follow_up",
+      "TESTRL": "End of last scheduled visit on study (including early termination)",
+      "TEENRL": "Completion of all specified followup activities (which vary on a patient-by-patient basis)",
+      "TEDUR": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TE",
+      "ETCD": "HIE",
+      "ELEMENT": "High_End",
+      "TESTRL": "Administration of first dose (from patches supplied at Visit 12)",
+      "TEENRL": "",
+      "TEDUR": "P2W"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TE",
+      "ETCD": "HIM",
+      "ELEMENT": "High_Middle",
+      "TESTRL": "Administration of first dose (from patches supplied at Visit 4)",
+      "TEENRL": "",
+      "TEDUR": "P22W"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TE",
+      "ETCD": "HIS",
+      "ELEMENT": "High_Start",
+      "TESTRL": "Administration of first dose",
+      "TEENRL": "",
+      "TEDUR": "P2W"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TE",
+      "ETCD": "LO",
+      "ELEMENT": "Low",
+      "TESTRL": "Administration of first dose",
+      "TEENRL": "",
+      "TEDUR": "P26W"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TE",
+      "ETCD": "PBO",
+      "ELEMENT": "Placebo",
+      "TESTRL": "Administration of first dose",
+      "TEENRL": "",
+      "TEDUR": "P26W"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TE",
+      "ETCD": "SCRN",
+      "ELEMENT": "Screen",
+      "TESTRL": "Informed consent",
+      "TEENRL": "Completion of all screening activities and no more than 2 weeks from informed consent",
+      "TEDUR": ""
+    }
+  ],
+  "ti": [
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "INCL01",
+      "IETEST": "Males and postmenopausal females at least 50 years of age.",
+      "IECAT": "INCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "INCL02",
+      "IETEST": "Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7).",
+      "IECAT": "INCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "INCL03",
+      "IETEST": "MMSE score of 10 to 23.",
+      "IECAT": "INCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "INCL04",
+      "IETEST": "Modified Hachinski Ischemic Scale score of <= 4. (Protocol Attachment LZZT.8).",
+      "IECAT": "INCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "INCL05",
+      "IETEST": "CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year.",
+      "IECAT": "INCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "INCL06",
+      "IETEST": "Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver.",
+      "IECAT": "INCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "INCL07",
+      "IETEST": "Geographic proximity to investigator's site that allows adequate follow-up.",
+      "IECAT": "INCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "INCL08",
+      "IETEST": "Caregiverwill monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home.",
+      "IECAT": "INCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL09",
+      "IETEST": "Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL10",
+      "IETEST": "Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL11",
+      "IETEST": "Serious illness which required hospitalization within 3 months of screening.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL12",
+      "IETEST": "Diagnosis of serious neurological conditions.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL13",
+      "IETEST": "Episode of depression meeting DSM-IV criteria within 3 months of screening.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL14",
+      "IETEST": "A history of mental illness within the last 5 years.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL15",
+      "IETEST": "A history of syncope within the last 5 years.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL16",
+      "IETEST": "Evidence from ECG recording at screening of any listed condition.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL17",
+      "IETEST": "A history within the last 5 years of a serious cardiovascular disorder.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL18",
+      "IETEST": "A history within the last 5 years of a serious gastrointestinal disorder.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL19",
+      "IETEST": "A history within the last 5 years of a serious endocrine disorder.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL20",
+      "IETEST": "A history within the last 5 years of a serious respiratory disorder (see list).",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL21",
+      "IETEST": "A history within the last 5 years of a serious genitourinary disorder.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL22",
+      "IETEST": "A history within the last 5 years of a serious rheumatologic disorder.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL23",
+      "IETEST": "A known history of human immunodeficiency virus (HIV) within the last 5 years.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL24",
+      "IETEST": "A history within the last 5 years of a serious infectious disease (see list in protocol).",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL25",
+      "IETEST": "A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol).",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL26",
+      "IETEST": "Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy).",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL27",
+      "IETEST": "Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL28",
+      "IETEST": "Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL29",
+      "IETEST": "Positive syphilis screening with confirmatory testing.",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL30",
+      "IETEST": "Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only).",
+      "IECAT": "EXCLUSION"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TI",
+      "IETESTCD": "EXCL31",
+      "IETEST": "Treatment with medications within 1 month prior to enrollment (see list).",
+      "IECAT": "EXCLUSION"
+    }
+  ],
+  "ts": [
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "ADDON",
+      "TSPARM": "Added on to Existing Treatments",
+      "TSVAL": "N",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "AGEMAX",
+      "TSPARM": "Planned Maximum Age of Subjects",
+      "TSVAL": "",
+      "TSVALNF": "PINF",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "AGEMIN",
+      "TSPARM": "Planned Minimum Age of Subjects",
+      "TSVAL": "P50Y",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "AGESPAN",
+      "TSPARM": "Age Group",
+      "TSVAL": "ADULT (18-65)",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 2,
+      "TSPARMCD": "AGESPAN",
+      "TSPARM": "Age Group",
+      "TSVAL": "ELDERLY (> 65)",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "TBLIND",
+      "TSPARM": "Trial Blinding Schema",
+      "TSVAL": "DOUBLE BLIND",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "TCNTRL",
+      "TSPARM": "Control Type",
+      "TSVAL": "PLACEBO",
+      "TSVALNF": "",
+      "TSVALCD": "C49648",
+      "TSVCDREF": "CDISC",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "TDIGRP",
+      "TSPARM": "Diagnosis Group",
+      "TSVAL": "Patients with Probable Mild to Moderate Alzheimer's Disease",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "DOSE",
+      "TSPARM": "Dose per Administration",
+      "TSVAL": "54",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 2,
+      "TSPARMCD": "DOSE",
+      "TSPARM": "Dose per Administration",
+      "TSVAL": "81",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "DOSFRQ",
+      "TSPARM": "Dosing Frequency",
+      "TSVAL": "QD",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "DOSU",
+      "TSPARM": "Dose Units",
+      "TSVAL": "mg",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "INDIC",
+      "TSPARM": "Trial Indication",
+      "TSVAL": "Alzheimer's Disease (Disorder)",
+      "TSVALNF": "",
+      "TSVALCD": "26929004",
+      "TSVCDREF": "SNOMED",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "TINDTP",
+      "TSPARM": "Trial Indication Type",
+      "TSVAL": "TREATMENT",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "LENGTH",
+      "TSPARM": "Trial Length",
+      "TSVAL": "P26W",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "OBJPRIM",
+      "TSPARM": "Trial Primary Objective",
+      "TSVAL": "To determine if there is a statistically significant relationship between the change in both ADAS-Cog and CIBIC+ scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg])",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 2,
+      "TSPARMCD": "OBJPRIM",
+      "TSPARM": "Trial Primary Objective",
+      "TSVAL": "To document the safety profile of the xanomeline TTS.",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "OBJSEC",
+      "TSPARM": "Trial Secondary Objective",
+      "TSVAL": "To assess the dose-dependent improvement in behavior. Improved scores on the Revised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these areas.",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 2,
+      "TSPARMCD": "OBJSEC",
+      "TSPARM": "Trial Secondary Objective",
+      "TSVAL": "To assess the dose-dependent improvements in activities of daily living. Improved scores on the Disability Assessment for Dementia (DAD) will indicate improvement in these areas.",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 3,
+      "TSPARMCD": "OBJSEC",
+      "TSPARM": "Trial Secondary Objective",
+      "TSVAL": "To assess the dose-dependent improvements in an extended assessment of cognition that integrates attention/concentration tasks. The ADAS-Cog (14) will be used for this assessment.",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 4,
+      "TSPARMCD": "OBJSEC",
+      "TSPARM": "Trial Secondary Objective",
+      "TSVAL": "To assess the treatment response as a function of Apo E genotype.",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "TPHASE",
+      "TSPARM": "Trial Phase Classification",
+      "TSVAL": "PHASE II TRIAL",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "PLANSUB",
+      "TSPARM": "Planned Number of Subjects",
+      "TSVAL": "300",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "RANDOM",
+      "TSPARM": "Trial is Randomized",
+      "TSVAL": "Y",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "ROUTE",
+      "TSPARM": "Route of Administration",
+      "TSVAL": "TRANSDERMAL",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "SEXPOP",
+      "TSPARM": "Sex of Participants",
+      "TSVAL": "BOTH",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "SPONSOR",
+      "TSPARM": "Clinical Study Sponsor",
+      "TSVAL": "CDISCPILOT01",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "TITLE",
+      "TSPARM": "Trial Title",
+      "TSVAL": "Safety and Efficacy of the Xanomeline Transdermal Therapeutic System (TTS) in Patients with Mild to Moderate Alzheimer's Disease.",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "TRT",
+      "TSPARM": "Investigational Therapy or Treatment",
+      "TSVAL": "Xanomeline",
+      "TSVALNF": "",
+      "TSVALCD": "9ORI6L73CJ",
+      "TSVCDREF": "UNII",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "TTYPE",
+      "TSPARM": "Trial Type",
+      "TSVAL": "SAFETY",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 2,
+      "TSPARMCD": "TTYPE",
+      "TSPARM": "Trial Type",
+      "TSVAL": "EFFICACY",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 4,
+      "TSPARMCD": "TTYPE",
+      "TSPARM": "Trial Type",
+      "TSVAL": "PHARMACOKINETIC",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "STOPRULE",
+      "TSPARM": "Study Stop Rules",
+      "TSVAL": "Last patient completed last visit or sponsor decided to discontinue study",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "REGID",
+      "TSPARM": "Registry Identifier",
+      "TSVAL": "NCT00987090",
+      "TSVALNF": "",
+      "TSVALCD": "NCT00987090",
+      "TSVCDREF": "",
+      "TSVCDVER": "clinicaltrials.gov"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "OUTMSPRI",
+      "TSPARM": "Primary Outcome Measure",
+      "TSVAL": "Evaluate the efficacy and safety of transdermal xanomeline, 50cm2 and 75cm2, and placebo in subjects with mild to moderate Alzheimer's disease.",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "FCNTRY",
+      "TSPARM": "Planned Country of Investigational Sites",
+      "TSVAL": "USA",
+      "TSVALNF": "",
+      "TSVALCD": "USA",
+      "TSVCDREF": "ISO 3166",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "ADAPT",
+      "TSPARM": "Adaptive Design",
+      "TSVAL": "N",
+      "TSVALNF": "",
+      "TSVALCD": "C49487",
+      "TSVCDREF": "CDISC",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "DCUTDTC",
+      "TSPARM": "Data Cutoff Date",
+      "TSVAL": "2015-03-31",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "ISO 8601",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "DCUTDESC",
+      "TSPARM": "Data Cutoff Description",
+      "TSVAL": "Interim Analysis Data Cutoff Date",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "NARMS",
+      "TSPARM": "Planned Number of Arms",
+      "TSVAL": "3",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "STYPE",
+      "TSPARM": "Study Type",
+      "TSVAL": "INTERVENTIONAL",
+      "TSVALNF": "",
+      "TSVALCD": "C98388",
+      "TSVCDREF": "CDISC",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "SSTDTC",
+      "TSPARM": "Study Start Date",
+      "TSVAL": "2012-07-06",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "ISO 8601",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "SENDTC",
+      "TSPARM": "Study End Date",
+      "TSVAL": "2015-03-05",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "ISO 8601",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "ACTSUB",
+      "TSPARM": "Actual Number of Subjects",
+      "TSVAL": "254",
+      "TSVALNF": "",
+      "TSVALCD": "",
+      "TSVCDREF": "",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "HLTSUBJI",
+      "TSPARM": "Healthy Subject Indicator",
+      "TSVAL": "N",
+      "TSVALNF": "",
+      "TSVALCD": "C49487",
+      "TSVCDREF": "CDISC",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "INTMODEL",
+      "TSPARM": "Intervention Model",
+      "TSVAL": "PARALLEL",
+      "TSVALNF": "",
+      "TSVALCD": "C82639",
+      "TSVCDREF": "CDISC",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "INTTYPE",
+      "TSPARM": "Intervention Type",
+      "TSVAL": "DRUG",
+      "TSVALNF": "",
+      "TSVALCD": "C1909",
+      "TSVCDREF": "CDISC",
+      "TSVCDVER": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSPARMCD": "PCLAS",
+      "TSPARM": "Pharmacologic Class",
+      "TSVAL": "Acetylcholine Release Inhibitor",
+      "TSVALNF": "",
+      "TSVALCD": "N0000175771",
+      "TSVCDREF": "NDF-RT",
+      "TSVCDVER": ""
+    }
+  ],
+  "tv": [
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 1,
+      "VISIT": "SCREENING 1",
+      "VISITDY": -7,
+      "ARMCD": "",
+      "TVSTRL": "Start of Screen Epoch",
+      "TVENRL": "completion of screening activities"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 2,
+      "VISIT": "SCREENING 2",
+      "VISITDY": -1,
+      "ARMCD": "",
+      "TVSTRL": "Start of Visitnum 3 - 24H",
+      "TVENRL": "subject leaves clinic after connection of ambulatory ECG machine"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 3,
+      "VISIT": "BASELINE",
+      "VISITDY": 1,
+      "ARMCD": "",
+      "TVSTRL": "(Just Before) Start of Treatment Epoch",
+      "TVENRL": "After application of first dose"
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 3.5,
+      "VISIT": "AMBUL ECG PLACEMENT",
+      "VISITDY": 13,
+      "ARMCD": "",
+      "TVSTRL": "Start of Visitnum  4 - 24H",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 4,
+      "VISIT": "WEEK 2",
+      "VISITDY": 14,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 2W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 5,
+      "VISIT": "WEEK 4",
+      "VISITDY": 28,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 4W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 6,
+      "VISIT": "AMBUL ECG REMOVAL",
+      "VISITDY": 30,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  5 + 1D",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 7,
+      "VISIT": "WEEK 6",
+      "VISITDY": 42,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 6W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 8,
+      "VISIT": "WEEK 8",
+      "VISITDY": 56,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 8W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 8.1,
+      "VISIT": "WEEK 10 (T)",
+      "VISITDY": 70,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  8 + 2W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 9,
+      "VISIT": "WEEK 12",
+      "VISITDY": 84,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 12W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 9.1,
+      "VISIT": "WEEK 14 (T)",
+      "VISITDY": 98,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  9 + 2W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 10,
+      "VISIT": "WEEK 16",
+      "VISITDY": 112,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 16W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 10.1,
+      "VISIT": "WEEK 18 (T)",
+      "VISITDY": 126,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  10 + 2W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 11,
+      "VISIT": "WEEK 20",
+      "VISITDY": 140,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 20W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 11.1,
+      "VISIT": "WEEK 22 (T)",
+      "VISITDY": 154,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  11 + 2W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 12,
+      "VISIT": "WEEK 24",
+      "VISITDY": 168,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 24W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 13,
+      "VISIT": "WEEK 26",
+      "VISITDY": 182,
+      "ARMCD": "",
+      "TVSTRL": "End of Visitnum  3 + 26W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 101,
+      "VISIT": "AE FOLLOW-UP",
+      "VISITDY": null,
+      "ARMCD": "",
+      "TVSTRL": "When subject is terminated early, with followup visit scheduled by site",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 201,
+      "VISIT": "RETRIEVAL",
+      "VISITDY": 168,
+      "ARMCD": "",
+      "TVSTRL": "If subject stopped treatment early, before Visitnum 12, then Retrieval occurs End of Visitnum 3 + 24W",
+      "TVENRL": ""
+    },
+    {
+      "STUDYID": "CDISCPILOT01",
+      "DOMAIN": "TV",
+      "VISITNUM": 501,
+      "VISIT": "Rash followup",
+      "VISITDY": null,
+      "ARMCD": "",
+      "TVSTRL": "If subject experienced rash, then Rash Followup occurs at End of last study visit + 2W",
+      "TVENRL": ""
+    }
+  ]
+}

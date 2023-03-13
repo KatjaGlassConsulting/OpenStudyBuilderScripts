@@ -2,17 +2,19 @@
 <html lang="en">
   <meta charset="UTF-8" />
   <title>Uploading data</title>
-  <script src="./scripts.js"></script>
+  <script src="./createContentScripts.js"></script>
   <body>
     <div>
       <h1>Example Scripts</h1>
       <p>Please open developer tools (in most browsers F12) to better browse the responses in the console window.</p>
       <br/>
-      <button onclick="getClinicalProgram()">Get Programs</button>
-      <button onclick="getProjects()">Get Projects</button>
-      <button onclick="getStudies()">Get Studies</button>
-      <br/><br/>
-      <div id="resultContainer">
+      <div id="getInformationArea">
+        <button onclick="getClinicalProgram()">Get Programs</button>
+        <button onclick="getProjects()">Get Projects</button>
+        <button onclick="getStudies()">Get Studies</button>
+        <br/><br/>
+        <div id="resultContainer">
+        </div>
       </div>
       <hr/><br/>
       <div id="areaCreateClinicalProgram_01">

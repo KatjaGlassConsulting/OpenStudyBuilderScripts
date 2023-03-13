@@ -1,0 +1,1356 @@
+﻿{
+  "ta": [
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G1A1",
+      "ARM": "Group 1, Control",
+      "TAETORD": 1,
+      "ETCD": "PRED",
+      "ELEMENT": "PreDosing",
+      "EPOCH": "PreTreatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G1A1",
+      "ARM": "Group 1, Control",
+      "TAETORD": 2,
+      "ETCD": "TRT1",
+      "ELEMENT": "Control",
+      "EPOCH": "Treatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G1A2",
+      "ARM": "Group 1, Control, Recovery",
+      "TAETORD": 1,
+      "ETCD": "PRED",
+      "ELEMENT": "PreDosing",
+      "EPOCH": "PreTreatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G1A2",
+      "ARM": "Group 1, Control, Recovery",
+      "TAETORD": 2,
+      "ETCD": "TRT1",
+      "ELEMENT": "Control",
+      "EPOCH": "Treatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G1A2",
+      "ARM": "Group 1, Control, Recovery",
+      "TAETORD": 3,
+      "ETCD": "RECO",
+      "ELEMENT": "Recovery",
+      "EPOCH": "Recovery"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G2A1",
+      "ARM": "Group 2, SENDVACC10",
+      "TAETORD": 1,
+      "ETCD": "PRED",
+      "ELEMENT": "PreDosing",
+      "EPOCH": "PreTreatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G2A1",
+      "ARM": "Group 2, SENDVACC10",
+      "TAETORD": 2,
+      "ETCD": "TRT2",
+      "ELEMENT": "SENDVACC10",
+      "EPOCH": "Treatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G2A2",
+      "ARM": "Group 2, SENDVACC10, Recovery",
+      "TAETORD": 1,
+      "ETCD": "PRED",
+      "ELEMENT": "PreDosing",
+      "EPOCH": "PreTreatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G2A2",
+      "ARM": "Group 2, SENDVACC10, Recovery",
+      "TAETORD": 2,
+      "ETCD": "TRT2",
+      "ELEMENT": "SENDVACC10",
+      "EPOCH": "Treatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G2A2",
+      "ARM": "Group 2, SENDVACC10, Recovery",
+      "TAETORD": 3,
+      "ETCD": "RECO",
+      "ELEMENT": "Recovery",
+      "EPOCH": "Recovery"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G3A1",
+      "ARM": "Group 3, SENDVACC99",
+      "TAETORD": 1,
+      "ETCD": "PRED",
+      "ELEMENT": "PreDosing",
+      "EPOCH": "PreTreatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G3A1",
+      "ARM": "Group 3, SENDVACC99",
+      "TAETORD": 2,
+      "ETCD": "TRT3",
+      "ELEMENT": "SENDVACC99",
+      "EPOCH": "Treatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G3A2",
+      "ARM": "Group 3, SENDVACC99, Recovery",
+      "TAETORD": 1,
+      "ETCD": "PRED",
+      "ELEMENT": "PreDosing",
+      "EPOCH": "PreTreatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G3A2",
+      "ARM": "Group 3, SENDVACC99, Recovery",
+      "TAETORD": 2,
+      "ETCD": "TRT3",
+      "ELEMENT": "SENDVACC99",
+      "EPOCH": "Treatment"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TA",
+      "ARMCD": "G3A2",
+      "ARM": "Group 3, SENDVACC99, Recovery",
+      "TAETORD": 3,
+      "ETCD": "RECO",
+      "ELEMENT": "Recovery",
+      "EPOCH": "Recovery"
+    }
+  ],
+  "te": [
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TE",
+      "ETCD": "PRED",
+      "ELEMENT": "PreDosing",
+      "TESTRL": "Start of PreDosing",
+      "TEENRL": "14 days after start of Element",
+      "TEDUR": "P14D"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TE",
+      "ETCD": "TRT1",
+      "ELEMENT": "Control",
+      "TESTRL": "Start of dosing with Control",
+      "TEENRL": "31 days after start of Element",
+      "TEDUR": "P31D"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TE",
+      "ETCD": "TRT2",
+      "ELEMENT": "SENDVACC10",
+      "TESTRL": "Start of dosing with SENDVACC10",
+      "TEENRL": "31 days after start of Element",
+      "TEDUR": "P31D"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TE",
+      "ETCD": "TRT3",
+      "ELEMENT": "SENDVACC99",
+      "TESTRL": "Start of dosing with SENDVACC99",
+      "TEENRL": "31 days after start of Element",
+      "TEDUR": "P31D"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TE",
+      "ETCD": "RECO",
+      "ELEMENT": "Recovery",
+      "TESTRL": "Start of Recovery",
+      "TEENRL": "28 days after start of Element",
+      "TEDUR": "P28D"
+    }
+  ],
+  "ts": [
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 1,
+      "TSGRPID": "",
+      "TSPARMCD": "AGE",
+      "TSPARM": "Age",
+      "TSVAL": "14"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 2,
+      "TSGRPID": "",
+      "TSPARMCD": "AGEU",
+      "TSPARM": "Age Unit",
+      "TSVAL": "WEEKS"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 3,
+      "TSGRPID": "",
+      "TSPARMCD": "ALTSTDID",
+      "TSPARM": "Alternate Study ID",
+      "TSVAL": "RABBITV1"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 4,
+      "TSGRPID": "",
+      "TSPARMCD": "BEDDING",
+      "TSPARM": "Bedding",
+      "TSVAL": "Absorbent paper"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 5,
+      "TSGRPID": "",
+      "TSPARMCD": "DIET",
+      "TSPARM": "Basal Diet",
+      "TSVAL": "110C SAFE pelleted diet"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 6,
+      "TSGRPID": "",
+      "TSPARMCD": "DOSDUR",
+      "TSPARM": "Dosing Duration",
+      "TSVAL": "P37D"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 7,
+      "TSGRPID": "",
+      "TSPARMCD": "DOSENDTC",
+      "TSPARM": "End Date/Time of Dose Interval",
+      "TSVAL": "2018-09-25"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 8,
+      "TSGRPID": "",
+      "TSPARMCD": "DOSSTDTC",
+      "TSPARM": "Start Date/Time of Dose Interval",
+      "TSVAL": "2018-08-20"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 9,
+      "TSGRPID": "",
+      "TSPARMCD": "ENVTEMP",
+      "TSPARM": "Environmental Temperature",
+      "TSVAL": "15-21"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 10,
+      "TSGRPID": "",
+      "TSPARMCD": "ENVTEMPU",
+      "TSPARM": "Environmental Temperature Units",
+      "TSVAL": "C"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 11,
+      "TSGRPID": "",
+      "TSPARMCD": "EXPENDTC",
+      "TSPARM": "Experimental End Date",
+      "TSVAL": "2018-10-23"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 12,
+      "TSGRPID": "",
+      "TSPARMCD": "EXPSTDTC",
+      "TSPARM": "Experimental Start Date",
+      "TSVAL": "2018-08-06"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 13,
+      "TSGRPID": "",
+      "TSPARMCD": "FEEDREG",
+      "TSPARM": "Feeding Regimen",
+      "TSVAL": "Free access"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 14,
+      "TSGRPID": "",
+      "TSPARMCD": "GLPTYP",
+      "TSPARM": "Good Laboratory Practice Type",
+      "TSVAL": "OECD"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 15,
+      "TSGRPID": "",
+      "TSPARMCD": "HOUSEGRP",
+      "TSPARM": "Housing Group",
+      "TSVAL": "SINGLE HOUSED"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 16,
+      "TSGRPID": "",
+      "TSPARMCD": "HOUSETYP",
+      "TSPARM": "Housing Type",
+      "TSVAL": "Noryl cages"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 17,
+      "TSGRPID": "",
+      "TSPARMCD": "HUMIDT",
+      "TSPARM": "Housing Humidity",
+      "TSVAL": "30-70"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 18,
+      "TSGRPID": "",
+      "TSPARMCD": "HUMIDTU",
+      "TSPARM": "Housing Humidity Units",
+      "TSVAL": "%"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 19,
+      "TSGRPID": "",
+      "TSPARMCD": "IDMETH",
+      "TSPARM": "Method of Identification",
+      "TSVAL": "Tattoo"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 20,
+      "TSGRPID": "",
+      "TSPARMCD": "LIGHT",
+      "TSPARM": "Light Cycle",
+      "TSVAL": "16 / 8"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 21,
+      "TSGRPID": "",
+      "TSPARMCD": "MTHTRM",
+      "TSPARM": "Method of Termination",
+      "TSVAL": "ANESTHETIZED LETHAL INJECTION INTRAVENOUS EXSANGUINATION"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 22,
+      "TSGRPID": "1",
+      "TSPARMCD": "PCLASS",
+      "TSPARM": "Pharmacologic Class",
+      "TSVAL": "NOT AVAILABLE"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 23,
+      "TSGRPID": "2",
+      "TSPARMCD": "PCLASS",
+      "TSPARM": "Pharmacologic Class",
+      "TSVAL": "NOT AVAILABLE"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 24,
+      "TSGRPID": "",
+      "TSPARMCD": "RECSAC",
+      "TSPARM": "Recovery Period",
+      "TSVAL": "P4W"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 25,
+      "TSGRPID": "",
+      "TSPARMCD": "ROUTE",
+      "TSPARM": "Route of Administration",
+      "TSVAL": "INTRAMUSCULAR"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 26,
+      "TSGRPID": "",
+      "TSPARMCD": "SDESIGN",
+      "TSPARM": "Study Design",
+      "TSVAL": "FACTORIAL"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 27,
+      "TSGRPID": "",
+      "TSPARMCD": "SEXPOP",
+      "TSPARM": "Sex of Participants",
+      "TSVAL": "BOTH"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 28,
+      "TSGRPID": "",
+      "TSPARMCD": "SLENGTH",
+      "TSPARM": "Study Length",
+      "TSVAL": "P8W"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 29,
+      "TSGRPID": "",
+      "TSPARMCD": "SNDCTVER",
+      "TSPARM": "SEND Controlled Terminology Version",
+      "TSVAL": "SEND Terminology 2018-12-21"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 30,
+      "TSGRPID": "",
+      "TSPARMCD": "SNDIGVER",
+      "TSPARM": "SEND Implementation Guide Version",
+      "TSVAL": "SEND IMPLEMENTATION GUIDE VERSION 3.1"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 31,
+      "TSGRPID": "",
+      "TSPARMCD": "SPECIES",
+      "TSPARM": "Species",
+      "TSVAL": "RABBIT"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 32,
+      "TSGRPID": "",
+      "TSPARMCD": "SPLANSUB",
+      "TSPARM": "Planned Number of Subjects",
+      "TSVAL": "60"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 33,
+      "TSGRPID": "",
+      "TSPARMCD": "SPLRLOC",
+      "TSPARM": "Test Subject Supplier Site",
+      "TSVAL": "Anywhere Ave, Europe"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 34,
+      "TSGRPID": "",
+      "TSPARMCD": "SPLRNAM",
+      "TSPARM": "Test Subject Supplier",
+      "TSVAL": "Subject Source, Inc."
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 35,
+      "TSGRPID": "",
+      "TSPARMCD": "SPREFID",
+      "TSPARM": "Sponsor's Study Reference ID",
+      "TSVAL": "RABBITV1-eCTDID"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 36,
+      "TSGRPID": "",
+      "TSPARMCD": "SRANDOM",
+      "TSPARM": "Study Is Randomized",
+      "TSVAL": "Y"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 37,
+      "TSGRPID": "",
+      "TSPARMCD": "SSPONSOR",
+      "TSPARM": "Sponsoring Organization",
+      "TSVAL": "BIOPHARMA, Inc."
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 38,
+      "TSGRPID": "",
+      "TSPARMCD": "SSTYP",
+      "TSPARM": "Study Type",
+      "TSVAL": "REPEAT DOSE TOXICITY"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 39,
+      "TSGRPID": "",
+      "TSPARMCD": "STCAT",
+      "TSPARM": "Study Category",
+      "TSVAL": "TOX"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 40,
+      "TSGRPID": "",
+      "TSPARMCD": "STDIR",
+      "TSPARM": "Study Director",
+      "TSVAL": "Dr. Who"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 41,
+      "TSGRPID": "",
+      "TSPARMCD": "STENDTC",
+      "TSPARM": "Study End Date",
+      "TSVAL": "2019-03-27"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 42,
+      "TSGRPID": "",
+      "TSPARMCD": "STITLE",
+      "TSPARM": "Study Title",
+      "TSVAL": "Repeated dose toxicity study by intramuscular administration of vaccine in rabbits"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 43,
+      "TSGRPID": "",
+      "TSPARMCD": "STRAIN",
+      "TSPARM": "Strain/Substrain",
+      "TSVAL": "NEW ZEALAND"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 44,
+      "TSGRPID": "",
+      "TSPARMCD": "STSTDTC",
+      "TSPARM": "Study Start Date",
+      "TSVAL": "2018-08-03"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 45,
+      "TSGRPID": "",
+      "TSPARMCD": "TFCNTRY",
+      "TSPARM": "Test Facility Country",
+      "TSVAL": "VUT"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 46,
+      "TSGRPID": "",
+      "TSPARMCD": "TRMSAC",
+      "TSPARM": "Time to Terminal Sacrifice",
+      "TSVAL": "P31D"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 47,
+      "TSGRPID": "",
+      "TSPARMCD": "TRMSAC",
+      "TSPARM": "Time to Terminal Sacrifice",
+      "TSVAL": "P57D"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 48,
+      "TSGRPID": "1",
+      "TSPARMCD": "TRT",
+      "TSPARM": "Investigational Therapy or Treatment",
+      "TSVAL": "SENDVACC10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 49,
+      "TSGRPID": "2",
+      "TSPARMCD": "TRT",
+      "TSPARM": "Investigational Therapy or Treatment",
+      "TSVAL": "SENDVACC99"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 50,
+      "TSGRPID": "1",
+      "TSPARMCD": "TRTCAS",
+      "TSPARM": "Primary Treatment CAS Registry Number",
+      "TSVAL": "NOT AVAILABLE"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 51,
+      "TSGRPID": "2",
+      "TSPARMCD": "TRTCAS",
+      "TSPARM": "Primary Treatment CAS Registry Number",
+      "TSVAL": "NOT AVAILABLE"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 52,
+      "TSGRPID": "1",
+      "TSPARMCD": "TRTUNII",
+      "TSPARM": "Primary Treatment Unique Ingredient ID",
+      "TSVAL": "NOT AVAILABLE"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 53,
+      "TSGRPID": "2",
+      "TSPARMCD": "TRTUNII",
+      "TSPARM": "Primary Treatment Unique Ingredient ID",
+      "TSVAL": "NOT AVAILABLE"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 54,
+      "TSGRPID": "1",
+      "TSPARMCD": "TRTV",
+      "TSPARM": "Treatment Vehicle",
+      "TSVAL": "NONE"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 55,
+      "TSGRPID": "2",
+      "TSPARMCD": "TRTV",
+      "TSPARM": "Treatment Vehicle",
+      "TSVAL": "NONE"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 56,
+      "TSGRPID": "",
+      "TSPARMCD": "TSTFLOC",
+      "TSPARM": "Test Facility Location",
+      "TSVAL": "Somewhere St., USA"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 57,
+      "TSGRPID": "",
+      "TSPARMCD": "TSTFNAM",
+      "TSPARM": "Test Facility Name",
+      "TSVAL": "TestLab Inc."
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 58,
+      "TSGRPID": "",
+      "TSPARMCD": "WATER",
+      "TSPARM": "Drinking Water",
+      "TSVAL": "Tap water in bottles"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TS",
+      "TSSEQ": 59,
+      "TSGRPID": "",
+      "TSPARMCD": "WTRDLVRY",
+      "TSPARM": "Water Delivery",
+      "TSVAL": "Free access"
+    }
+  ],
+  "tx": [
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 1,
+      "TXPARMCD": "ARMCD",
+      "TXPARM": "Arm Code",
+      "TXVAL": "G1A1"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 2,
+      "TXPARMCD": "GRPLBL",
+      "TXPARM": "Group Label",
+      "TXVAL": "Group 1, Control it"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 3,
+      "TXPARMCD": "PLANFSUB",
+      "TXPARM": "Planned Number of Female Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 4,
+      "TXPARMCD": "PLANMSUB",
+      "TXPARM": "Planned Number of Male Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 5,
+      "TXPARMCD": "SETLBL",
+      "TXPARM": "Set Label",
+      "TXVAL": "Group 1, Control"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 6,
+      "TXPARMCD": "SEXPOP",
+      "TXPARM": "Sex of Participants",
+      "TXVAL": "BOTH"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 7,
+      "TXPARMCD": "SPGRPCD",
+      "TXPARM": "Sponsor-Defined Group Code",
+      "TXVAL": "1"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 8,
+      "TXPARMCD": "SPLANSUB",
+      "TXPARM": "Planned Number of Subjects",
+      "TXVAL": "20"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 9,
+      "TXPARMCD": "TRTDOS",
+      "TXPARM": "Dose Level",
+      "TXVAL": "0"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 10,
+      "TXPARMCD": "TRTDOSU",
+      "TXPARM": "Dose Units",
+      "TXVAL": "mg/dose"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A1",
+      "SET": "Group 1, Control",
+      "TXSEQ": 11,
+      "TXPARMCD": "TCNTRL",
+      "TXPARM": "Control Type",
+      "TXVAL": "Negative Control"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 12,
+      "TXPARMCD": "ARMCD",
+      "TXPARM": "Arm Code",
+      "TXVAL": "G1A2"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 13,
+      "TXPARMCD": "GRPLBL",
+      "TXPARM": "Group Label",
+      "TXVAL": "Group 1, Control it"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 14,
+      "TXPARMCD": "PLANFSUB",
+      "TXPARM": "Planned Number of Female Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 15,
+      "TXPARMCD": "PLANMSUB",
+      "TXPARM": "Planned Number of Male Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 16,
+      "TXPARMCD": "SETLBL",
+      "TXPARM": "Set Label",
+      "TXVAL": "Group 1, Control, R"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 17,
+      "TXPARMCD": "SEXPOP",
+      "TXPARM": "Sex of Participants",
+      "TXVAL": "BOTH"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 18,
+      "TXPARMCD": "SPGRPCD",
+      "TXPARM": "Sponsor-Defined Group Code",
+      "TXVAL": "1"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 19,
+      "TXPARMCD": "SPLANSUB",
+      "TXPARM": "Planned Number of Subjects",
+      "TXVAL": "20"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 20,
+      "TXPARMCD": "TRTDOS",
+      "TXPARM": "Dose Level",
+      "TXVAL": "0"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 21,
+      "TXPARMCD": "TRTDOSU",
+      "TXPARM": "Dose Units",
+      "TXVAL": "mg/dose"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G1A2",
+      "SET": "Group 1, Control, Recovery",
+      "TXSEQ": 22,
+      "TXPARMCD": "TCNTRL",
+      "TXPARM": "Control Type",
+      "TXVAL": "Negative Control"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 23,
+      "TXPARMCD": "ARMCD",
+      "TXPARM": "Arm Code",
+      "TXVAL": "G2A1"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 24,
+      "TXPARMCD": "GRPLBL",
+      "TXPARM": "Group Label",
+      "TXVAL": "Group 2, SENDVACC10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 25,
+      "TXPARMCD": "PLANFSUB",
+      "TXPARM": "Planned Number of Female Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 26,
+      "TXPARMCD": "PLANMSUB",
+      "TXPARM": "Planned Number of Male Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 27,
+      "TXPARMCD": "SETLBL",
+      "TXPARM": "Set Label",
+      "TXVAL": "Group 2, SENDVACC10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 28,
+      "TXPARMCD": "SEXPOP",
+      "TXPARM": "Sex of Participants",
+      "TXVAL": "BOTH"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 29,
+      "TXPARMCD": "SPGRPCD",
+      "TXPARM": "Sponsor-Defined Group Code",
+      "TXVAL": "2"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 30,
+      "TXPARMCD": "SPLANSUB",
+      "TXPARM": "Planned Number of Subjects",
+      "TXVAL": "20"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 31,
+      "TXPARMCD": "TRTDOS",
+      "TXPARM": "Dose Level",
+      "TXVAL": "12.5"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A1",
+      "SET": "Group 2, SENDVACC10",
+      "TXSEQ": 32,
+      "TXPARMCD": "TRTDOSU",
+      "TXPARM": "Dose Units",
+      "TXVAL": "mg/dose"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 33,
+      "TXPARMCD": "ARMCD",
+      "TXPARM": "Arm Code",
+      "TXVAL": "G2A2"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 34,
+      "TXPARMCD": "GRPLBL",
+      "TXPARM": "Group Label",
+      "TXVAL": "Group 2, SENDVACC10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 35,
+      "TXPARMCD": "PLANFSUB",
+      "TXPARM": "Planned Number of Female Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 36,
+      "TXPARMCD": "PLANMSUB",
+      "TXPARM": "Planned Number of Male Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 37,
+      "TXPARMCD": "SETLBL",
+      "TXPARM": "Set Label",
+      "TXVAL": "Group 2, SENDVACC10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 38,
+      "TXPARMCD": "SEXPOP",
+      "TXPARM": "Sex of Participants",
+      "TXVAL": "BOTH"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 39,
+      "TXPARMCD": "SPGRPCD",
+      "TXPARM": "Sponsor-Defined Group Code",
+      "TXVAL": "2"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 40,
+      "TXPARMCD": "SPLANSUB",
+      "TXPARM": "Planned Number of Subjects",
+      "TXVAL": "20"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 41,
+      "TXPARMCD": "TRTDOS",
+      "TXPARM": "Dose Level",
+      "TXVAL": "12.5"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G2A2",
+      "SET": "Group 2, SENDVACC10, Recovery",
+      "TXSEQ": 42,
+      "TXPARMCD": "TRTDOSU",
+      "TXPARM": "Dose Units",
+      "TXVAL": "mg/dose"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 43,
+      "TXPARMCD": "ARMCD",
+      "TXPARM": "Arm Code",
+      "TXVAL": "G3A1"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 44,
+      "TXPARMCD": "GRPLBL",
+      "TXPARM": "Group Label",
+      "TXVAL": "Group 3, SENDVACC99"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 45,
+      "TXPARMCD": "PLANFSUB",
+      "TXPARM": "Planned Number of Female Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 46,
+      "TXPARMCD": "PLANMSUB",
+      "TXPARM": "Planned Number of Male Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 47,
+      "TXPARMCD": "SETLBL",
+      "TXPARM": "Set Label",
+      "TXVAL": "Group 3, SENDVACC99"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 48,
+      "TXPARMCD": "SEXPOP",
+      "TXPARM": "Sex of Participants",
+      "TXVAL": "BOTH"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 49,
+      "TXPARMCD": "SPGRPCD",
+      "TXPARM": "Sponsor-Defined Group Code",
+      "TXVAL": "3"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 50,
+      "TXPARMCD": "SPLANSUB",
+      "TXPARM": "Planned Number of Subjects",
+      "TXVAL": "20"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 51,
+      "TXPARMCD": "TRTDOS",
+      "TXPARM": "Dose Level",
+      "TXVAL": "12.5"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A1",
+      "SET": "Group 3, SENDVACC99",
+      "TXSEQ": 52,
+      "TXPARMCD": "TRTDOSU",
+      "TXPARM": "Dose Units",
+      "TXVAL": "mg/dose"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 53,
+      "TXPARMCD": "ARMCD",
+      "TXPARM": "Arm Code",
+      "TXVAL": "G3A2"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 54,
+      "TXPARMCD": "GRPLBL",
+      "TXPARM": "Group Label",
+      "TXVAL": "Group 3, SENDVACC99"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 55,
+      "TXPARMCD": "PLANFSUB",
+      "TXPARM": "Planned Number of Female Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 56,
+      "TXPARMCD": "PLANMSUB",
+      "TXPARM": "Planned Number of Male Subjects",
+      "TXVAL": "10"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 57,
+      "TXPARMCD": "SETLBL",
+      "TXPARM": "Set Label",
+      "TXVAL": "Group 3, SENDVACC99"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 58,
+      "TXPARMCD": "SEXPOP",
+      "TXPARM": "Sex of Participants",
+      "TXVAL": "BOTH"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 59,
+      "TXPARMCD": "SPGRPCD",
+      "TXPARM": "Sponsor-Defined Group Code",
+      "TXVAL": "3"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 60,
+      "TXPARMCD": "SPLANSUB",
+      "TXPARM": "Planned Number of Subjects",
+      "TXVAL": "20"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 61,
+      "TXPARMCD": "TRTDOS",
+      "TXPARM": "Dose Level",
+      "TXVAL": "12.5"
+    },
+    {
+      "STUDYID": "RABBITV1",
+      "DOMAIN": "TX",
+      "SETCD": "G3A2",
+      "SET": "Group 3, SENDVACC99, Recovery",
+      "TXSEQ": 62,
+      "TXPARMCD": "TRTDOSU",
+      "TXPARM": "Dose Units",
+      "TXVAL": "mg/dose"
+    }
+  ]
+}

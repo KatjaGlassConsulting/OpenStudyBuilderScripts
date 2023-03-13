@@ -72,3 +72,23 @@ When checking the import order on the readme, you could see that the `mockdatajs
 In windows I do not have the docker deamon up and running immediately. To start the docker environment, I use "Docker Desktop". As the containers have to start in a specific order, the automatic start does not work. You have to manually click "play" for all components:
 
 ![Start docker container](./img/install_docker_start.png)
+
+## Issues with API Swagger documentation
+
+The Swagger API documentation where you can directly execute API calls should be available via one or the other link:
+
+- http://localhost:5003/docs
+- http://localhost:5005/api/docs
+
+There could either be messages like "openapi.json not found" or when you execute an API you get an HTML as return stating: "We're sorry but studybuilder doesn't work properly without JavaScript enabled. Please enable it to continue.".
+
+If neither is working, then there are some issues with the root path of your container. To fix this, you can update the `apidockerfile` in the repository.
+
+Change `CMD pipenv run uvicorn clinical_mdr_api.main:app` to `CMD pipenv run uvicorn clinical_mdr_api.main:app --root-path "/"`.
+
+Then rebuild the container. Open the command line, go into the repositorys folder and run the following two commands:
+
+```
+docker compose build --no-cache api
+docker-compose up --force-recreate api
+```
