@@ -1,12 +1,16 @@
 # Browse the Database
 
+This has been developed using OpenStudyBuilder 0.5 - due to changes activity browsing is not working this way in 0.6. An update is expected somewhen.
+
 ## Start the DB browser
 
 You can browse the Neo4j database with the browswer using for the sandbox for exampla the following URL: https://openstudybuilder.northeurope.cloudapp.azure.com/browser/. When running the local installation, you have to checkout the port where the database is running, this could for example be: http://localhost:5001/browser/.
 
-In the Sandbox environment you need to select the "Single Sign On" type to login with Azure SSO.
+In the Sandbox environment you need to select the "Single Sign On" type to login with Azure SSO. In the local host you need to enter the database user and password - if you have not changed the defaults it will be "neo4j" and "changeme1234".
 
 Then you can enter any cypher comments. As we want to browse the database, we will use `MATCH` statement. But first of all, we need to select the correct database. In the sandbox, the default database is "neo4j" which does not contain any data. The database for our OpenStudyBuilder is named "mdrdb[date]". You can connect to this DB with the left database icon and through the dropdown menu.
+
+![Screenshot for Selecting correct DB](./img/browseDB_04.png)
 
 To see if we selected the right database and to check that there is something in, we can use a very generic query to get some connected nodes.
 
