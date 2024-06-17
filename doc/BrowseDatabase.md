@@ -18,6 +18,22 @@ To see if we selected the right database and to check that there is something in
 MATCH (n1)-[r]->(n2) RETURN r, n1, n2 LIMIT 25
 ```
 
+
+MATCH (n2:ActivityGroupValue)-[]-(n3)-[]-(n4:ActivitySubGroupValue) 
+      RETURN n2, n3, n4 LIMIT 15
+
+
+MATCH(p_act:ActivityValue)-[R1:HAS_GROUPING]->(g:ActivityGrouping)-[R2:IN_SUBGROUP]->(sg:ActivityValidGroup)<-[R3:HAS_GROUP]-(p_asgrp:ActivitySubGroupValue),
+    (sg)-[R4:IN_GROUP]->(p_agrp:ActivityGroupValue) 
+    WHERE p_act.name = "Diastolic Blood Pressure"
+    RETURN * LIMIT 15
+
+
+MATCH(p_act:ActivityValue)-[R1:HAS_GROUPING]->(g:ActivityGrouping)-[R2:IN_SUBGROUP]->(sg:ActivityValidGroup)<-[R3:HAS_GROUP]-(p_asgrp:ActivitySubGroupValue),
+    (sg)-[R4:IN_GROUP]->(p_agrp:ActivityGroupValue) 
+    WHERE p_agrp.name = "Vital Signs"
+    RETURN * LIMIT 25
+
 ## Browse Activities
 
 To get a brief impression about the activities, we can investigate some with the following command:
@@ -57,6 +73,17 @@ MATCH (n1:ActivityInstanceValue)-[r]-(n)
 
 This way you can browse the database and it's content.
 
+
+## Other useful queried
+
+```cypher
+MATCH (n:_Neodash_Dashboard {title: 'put the title of one of the dashboards'})
+DELETE n
+```
+
+```cypher
+MATCH (n:_Neodash_Dashboard) RETURN n;
+```
 
 ## Learning material for Cypher
 

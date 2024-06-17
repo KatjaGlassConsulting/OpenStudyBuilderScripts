@@ -10,6 +10,13 @@ I need to remove old instances using the same names/ports from docker to install
 
 When you already have installed the OpenStudyBuilder in an old version and want to install the new version, then you have to remove all old images and volumes additionally to the old containers related to the OpenStudyBuilder. Otherwise the installation or startup might fail.
 
+Make sure you do not change any line-feed endings when working in Windows with git. To omit this, you might want to use the following settings:
+
+```
+git config --global core.autocrlf input 
+git config --global core.autocrlf false
+```
+
 ## Install Solution
 
 Open the command line and download + install via docker with the following steps in the console:
@@ -21,10 +28,15 @@ Open the command line and download + install via docker with the following steps
 
 ```
 cd c:\myInstallLocation
-git clone https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution.git OpenStudyBuilder-0.4
-cd OpenStudyBuilder-0.4
+git clone https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution.git OpenStudyBuilder-0.9
+cd OpenStudyBuilder-0.9
 docker compose up -d --build
 ```
+
+In case of ' | /docker-entrypoint.sh: line 31: /docker-entrypoint.d/sb-config.sh: not found' - make sure your git settings do not replace unix line feeds
+
+`git config --global core.autocrlf input`
+`git config --global core.autocrlf false`
 
 In case of issues, remove old installations (will **remove ALL** docker images):
 
