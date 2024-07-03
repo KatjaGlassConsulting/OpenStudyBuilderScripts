@@ -4,6 +4,8 @@ To checkout and play around with the local OpenStudyApplication app, we can comp
 
 ## Setup & Background
 
+(OpenStudyBuilder 0.9.1)
+
 I am working with Windows having installed everything as dockerized containers. I start all the containers (including the installed application) to have the database, API and everything running on http://localhost:500*, e.g. http://localhost:5005/ the app itself.
 
 Start the command line and go to the application directory `./studybuilder`. I update the config (`<path>\studybuilder\public\config.json`) to use the full path which defines the API: change `"API_BASE_URL": "/api",` to `"API_BASE_URL": "http://localhost:5005/api",`. Then install all dependencies and start the application for development.
@@ -11,12 +13,12 @@ Start the command line and go to the application directory `./studybuilder`. I u
 ```
 cd <path>\studybuilder
 yarn install
-yarn serve
+yarn dev
 ```
 
-To start the development next time, you only need to use the `yarn serve` command.
+To start the development next time, you only need to use the `yarn dev` command.
 
-Now you should be able to start the running development instance via: [http://localhost:8080/](http://localhost:8080/). In your browser you can check within the development tools via "network" that the API requests are also processed as expected and you do not receive errors there. 
+Now you should be able to start the running development instance via: [http://localhost:5173/](http://localhost:5173/). In your browser you can check within the development tools via "network" that the API requests are also processed as expected and you do not receive errors there. 
 
 ## Example - How to change "study type" selections?
 
