@@ -1,0 +1,7 @@
+
+tsparmcd            tsparm                                                                                                                              tsval
+--------  ----------------  ---------------------------------------------------------------------------------------------------------------------------------
+TITLE     Trial Title       Safety and Efficacy of the Xanomeline Transdermal Therapeutic System (TTS) in Patients with Mild to Moderate Alzheimer's Disease.
+TDIGRP    Diagnosis Group   Patients with Probable Mild to Moderate Alzheimer's Disease
+SSTDTC    Study Start Date  2013-07-01
+PLANSUB   Planned Subjects  300

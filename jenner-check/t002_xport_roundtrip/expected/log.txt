@@ -1,0 +1,26 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.ta
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote work.ta (4 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC COPY in=work out=xptout
+
+NOTE: Copying TA to XPTOUT (4 observations).
+NOTE: 1 member(s) copied.
+NOTE: XPORT library XPTOUT closed.
+NOTE: Library XPTOUT cleared.
+NOTE: Library OUTLIB assigned path=/tmp/work/r_6c2e934b55374d8fb92e5e9db139e6fe/work/dee06c8d-132a-4961-bfab-667a188dfb80.
+NOTE: PROC COPY in=xptfile out=outlib
+
+NOTE: Copying TA to OUTLIB.
+NOTE: 1 member(s) copied.
+NOTE: XPORT library XPTFILE closed.
+NOTE: Library XPTFILE cleared.
+NOTE: PROC PRINT data=outlib.ta
+
+NOTE: PROC PRINT completed: 4 observations printed, 4 variables

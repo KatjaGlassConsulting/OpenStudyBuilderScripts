@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-29T14:20:09.306551+00:00",
+  "_captured_run_id": "r_6c2e934b55374d8fb92e5e9db139e6fe",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Copying TA to XPTOUT (4 observations).",
+    "NOTE: Copying TA to OUTLIB.",
+    "NOTE: PROC PRINT completed: 4 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

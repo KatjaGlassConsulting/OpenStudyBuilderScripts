@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_xport_roundtrip",
+  "source_file": "scripts/read_trial_domains_to_json.sas",
+  "source_blob_sha": "0d3b651b56de0ac40febe402f2d07b4572cc5af9",
+  "source_commit": "2ec99e28634b21035b1b845bc8cc73fb98df5f06",
+  "notes": "The XPORT read path of %download_and_convert_xpt (LIBNAME xptfile XPORT ... ACCESS=readonly ENCODING=ANY; PROC COPY INLIB=xptfile OUTLIB=outlib). The PROC HTTP network download is replaced by writing a small mock TA (Trial Arms) domain to a local v5 transport file, then reading it back through the same XPORT + PROC COPY path. Bare 'LIBNAME xptfile;' deassign rewritten to 'LIBNAME xptfile clear;' (semantically identical)."
+}

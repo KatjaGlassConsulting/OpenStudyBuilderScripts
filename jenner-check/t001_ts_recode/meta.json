@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_ts_recode",
+  "source_file": "scripts/read_trial_domains_to_json.sas",
+  "source_blob_sha": "0d3b651b56de0ac40febe402f2d07b4572cc5af9",
+  "source_commit": "2ec99e28634b21035b1b845bc8cc73fb98df5f06",
+  "notes": "Their TS Trial Summary recode DATA step (SET dat.ts; conditional tsval reassignment for TDIGRP/TITLE) run verbatim against a small inline mock TS domain in place of the downloaded CDISC pilot Trial Design XPTs. Logic unchanged; only the input source is substituted so the bundle is self-contained."
+}
