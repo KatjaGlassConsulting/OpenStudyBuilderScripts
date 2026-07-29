@@ -1,0 +1,7 @@
+
+  ARMCD              ARM  TAETORD               ELEMENT
+-------  ---------------  -------  --------------------
+PLACEBO  Placebo                1  Screening
+PLACEBO  Placebo                2  Placebo Treatment
+XANHI    Xanomeline High        1  Screening
+XANHI    Xanomeline High        2  Xanomeline High Dose
